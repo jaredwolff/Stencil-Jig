@@ -8,6 +8,8 @@ The Stencil-Jig is a simple DIY machine for PCB stenciling built with the Openbu
 
 The stencils can be clamped into the Stencil-Jig with the inner v-slot extrusions. With all the adjustment screws on the sides and the front, the PCB and the stencil can be aligned easily to fit each other (at least this is the plan). The PCB holders are not yet the best option but they are working for now. If you have other ideas of how the PCB alignment could be done better then please let me know!
 
+The original design is from makermoekoe: https://github.com/makermoekoe/Stencil-Jig
+
 These built is inspired by two other DIY designs of Stencil printers/jigs/machines:
 
 - Valera Perinski: https://www.thingiverse.com/thing:3429201
@@ -64,15 +66,15 @@ Except the 3D printed parts and the extrusions listed above you will also need t
 - 4x M3 threaded insert
 - 3x M4 threaded insert
 - 40x M4 screw DIN 912 8mm
-- 6x M4 screw DIN 912 12mm
+- 2x M4 screw DIN 912 12mm
+- 4x M4 screw DIN 912 14mm
 - 10x M4 screw DIN 912 20mm
-- 4x M4 screw DIN 912 25mm
 - 2x M5 screw DIN 912 50mm
 - 2x M5 screw DIN 912 30mm
-- 60x M4 extrusion nuts
+- 50x M4 extrusion nuts (one bag of 50)
 - 1x M4 self-locking nut
-- Xx washers 4,3mm x 15mm
-- 4x washers 5,3mm x 15mm
+- 4x fender washers M5 x 15mm
+- 4x washers M4 x 12mm
 - 2x washers 5,3mm x 10mm polyamid
 - (4x machine foots)
 
@@ -82,6 +84,40 @@ Except the 3D printed parts and the extrusions listed above you will also need t
 
 The alignment guides are there to hold the upper part of the jig (including the stencil) during the stenceling process in place, so that it doesn't move to the left or right.
 
+## Jigs 
+
+Repository includes two jigs that were used for:
+
+1. Drilling equally spaced holes for the metal bars (stencil retention) - (Stencil - Drill Fixture.stl)
+2. Drilling into base plate (Base Plate Jig.stl)
+
+## Costs
+
+Here's the breakdown:
+
+| Store         | Cost   |
+| ------------- | ------ |
+| Mcmaster      | 101.70 |
+| Monster Bolts | 26.78  |
+| Open Builds   | 94.20  |
+| Digikey       | 3.55   |
+| Total         | 223.04 |
+
+I would also suggest [Bolt Depot](https://www.boltdepot.com) for purchasing smaller amounts of bolts. They offer shipping via USPS Ground Advantage which can be economical. 
+
+## Notes
+
+List of improvements
+
+1. Use 14 or 16mm M4 with washer for some of the connections rather than 12mm M4
+2. Didn't even use 25mm M4
+3. Use [this collar](https://www.printables.com/model/49725-adjusting-ring-shaft-collar-8mm-10mm-m3/files) instead of the one included
+4. Only one bag of 50pcs for inserts
+6. More M4 fender washers
+7. McMaster 5.0mm tap [26475A38](https://www.mcmaster.com/26475A38/)
+8. Additional:
+	1. 4x M3x20 socket cap bolts
+	2. 4x M3 nuts
 
 ## TODOs
 
